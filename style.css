@@ -234,24 +234,96 @@
         padding: 40px 40px 40px 40px;
         background: #ffffff;
         position: absolute;
-        width: 100%;
-        bottom: -13.88889vw;
-        min-height: 300px;
+        bottom: -14.88889vw;
+        height: 600px;
         max-width: 1200px;
         margin: auto;
     }
 
-    .swiper-wrapper span {
-        background: #c80d0d;
-        color: #fff;
-        position: absolute;
-        top: 10px;
-        left: 0;
-        padding: 0px 10px 0px 25px;
-        height: 26px;
-        z-index: 10;
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
         display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
         align-items: center;
-    }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .image-wrapper {
+        width: 100%;
+        position: relative;
+      }
+
+      #first-mid {
+        margin: 350px auto 0;
+        width: 90%;
+        min-height: 800px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .video-title {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .line-1 {
+        height: 3px;
+        width: 650px;
+        background-color: #d00000;
+        margin-right: 20px;
+      }
+
+      .title h2 {
+        font-size: 40px
+      }
+
+      .title {
+        position: relative;
+        top: -30px;
+      }
+
+      .video-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      
+      .vid-list-img a {
+        display: block;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+      }
 
     
+
+
+
+
+      
+   
