@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body id="japan-view">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
     <nav>
         <div class="logo">
             <img src="./img-jv/japanview-logo.png">
@@ -21,18 +23,23 @@
             <li><a href="#">Experience & Location</a></li>
             <li><a href="#">Videos</a></li>
         </ul> 
-        <input type="checkbox" name="" id="" class="check">
-        <ul class="menu-items">
-            <li><a href="#">About Japan View</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Advertisement and Information Posting</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="hamburger-menu">
-            <span class="line line1"></span>
-            <span class="line line2"></span>
-            <span class="line line3"></span>
+        
+        
+        <div class="hamburger-menu-items">
+            <input type="checkbox" name="" id="" class="check">
+            <ul class="menu-items">
+                <li><a href="#">About Japan View</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Advertisement and Information Posting</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
         </div>
+        
     </nav>
     <div class="top">
         <div class="top-bg-img">
@@ -156,32 +163,29 @@
             </div>
         </div>
         <div class="tabs-search">
-            <div class="searchbar">
-                <div class="search-box">
-                    <div class="btn btn-common">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </div>
-                    <input type="text" class="input" placeholder="What are you looking for?"> 
+           <div class="search_wrap search_wrap_3">
+			<div class="search_box">
+				<input type="text" class="input" placeholder="search...">
+				<div class="btn btn_common">
+					<i class="fas fa-search"></i>
+				</div>
+			</div>
+		</div>
+            <div class="tab-container-1">
+                <div class="tab-triger-1">
+                    <ul>
+                        <li><label for="tab-1">PR Info</label></li>
+                        <li><label for="tab-2">Popular Keywords</label></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="content">
-                <!-- Nav pills -->
-                <ul class="nav nav-pills" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" data-toggle="pill" href="#pr">PR Info</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#keywords">Popular Keywords</a>
-                  </li>
-                </ul>
-            
-                <!-- Tab panes -->
-                <div class="tab-content">
-                  <div id="pr" class="container tab-pane active">
-                    <img src="./img-jv/pr-info.png">
-                  </div>
-                  <div id="keywords" class="container tab-pane fade">
-                    <div>
+                <div class="tab-container-wrap-1">
+                    <input type="radio" checked id="tab-1" name="1">
+                    <div class="tab-content-box-1">
+                        <img src="./img-jv/pr-info.png" width="350" height="auto" style="position: relative; top: -35px; margin: 0px 0px 50px 70px;">
+                    </div>
+                    <input type="radio" id="tab-2" name="1">
+                    <div class="tab-content-box-1">
+                        <h3>Popular Keywords</h3>
                         <a href="https://japanview.tv/id/prefectures/kanto_id/" class="tag-cloud-link tag-link-635 tag-link-position-1" style="font-size: 16px;">Kanto</a>
                         <a href="https://japanview.tv/id/facility_genre/museum_id/" class="tag-cloud-link tag-link-482 tag-link-position-2" style="font-size: 16px;">Museum</a>
                         <a href="https://japanview.tv/id/facility_genre/art_museum_id/" class="tag-cloud-link tag-link-246 tag-link-position-3" style="font-size: 16px;">Art Museum</a>
@@ -196,7 +200,7 @@
                         <a href="https://japanview.tv/id/prefectures/kyushu_id/" class="tag-cloud-link tag-link-393 tag-link-position-12" style="font-size: 16px;">Kyushu</a>
                         <a href="https://japanview.tv/id/prefectures/kyoto_id/" class="tag-cloud-link tag-link-367 tag-link-position-13" style="font-size: 16px;">Kyoto</a>
                         <a href="https://japanview.tv/id/school_type/university_id/" class="tag-cloud-link tag-link-470 tag-link-position-14" style="font-size: 16px;">University</a>
-                        <a href="https://japanview.tv/id/school_type/vocational_school_id/" class="tag-cloud-link tag-link-474 tag-link-position-15" style="font-size: 16px;">Vocational School</a>			
+                        <a href="https://japanview.tv/id/school_type/vocational_school_id/" class="tag-cloud-link tag-link-474 tag-link-position-15" style="font-size: 16px;">Vocational School</a>
                     </div>
                 </div>
             </div>
