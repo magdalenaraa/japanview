@@ -225,15 +225,14 @@
         z-index: 3;
     }
 
-    .sns-tr ul li {
-        list-style: none;
-        padding-bottom: 10px;
+    .sns-tr{
+        padding-bottom: 50px;
     }
 
     .t-floater {
         position: relative;
         top: 50%;
-        left: 30%;
+        left: 25%;
     }
 
     .news-wrapper {
@@ -288,7 +287,7 @@
       #first-mid {
         margin: 300px auto 0;
         width: 90%;
-        min-height: 800px;
+        min-height: 680px;
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
@@ -305,6 +304,7 @@
       .video-title {
         display: flex;
         justify-content: space-around;
+        text-transform: uppercase;
       }
 
       .line-1 {
@@ -530,6 +530,168 @@
         display: block;
         align-items: center;
     }
+
+    #popular-mid {
+        margin: 0 auto;
+        width: 90%;
+        min-height: 500px;
+    }
+
+    .popular-title {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+      }
+
+      .line-2 {
+        height: 3px;
+        width: 1190px;
+        background-color: #d00000;
+        margin-left: 20px;
+      }
+
+      .popular-content {
+        display: flex;
+        justify-content: space-between; 
+      }
+
+      #popular-rank-1 {
+        background-image: url(./img-jv/newyear-thumb.png);
+        width: 100%;
+        min-height: 320px;
+        max-width: 300px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+      }
+      #popular-rank-1 a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Noto Sans JP', sans-serif;
+        position: relative;
+        top: 220px;
+        left: 20px;
+      }
+
+      #popular-rank-2 {
+        background-image: url(./img-jv/univ-thumb.png);
+        width: 100%;
+        min-height: 320px;
+        max-width: 300px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+      }
+      #popular-rank-2 a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: 'Noto Sans JP', sans-serif;
+        position: relative;
+        top: 180px;
+        left: 20px;
+        right: 20px;
+      }
+
+      #popular-rank-3 {
+        background-image: url(./img-jv/pokemon-thumb.png);
+        width: 100%;
+        min-height: 320px;
+        max-width: 300px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+      }
+      #popular-rank-3 a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Noto Sans JP', sans-serif;
+        position: relative;
+        top: 220px;
+        left: 20px;
+      }
+
+      #popular-rank-4 {
+        background-image: url(./img-jv/sen-thumb.png);
+        width: 100%;
+        min-height: 320px;
+        max-width: 300px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+      }
+      #popular-rank-4 a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Noto Sans JP', sans-serif;
+        position: relative;
+        top: 220px;
+        left: 20px;
+      }
+
+      #popular-rank-5 {
+        background-image: url(./img-jv/seiyuu-thumb.png);
+        width: 100%;
+        min-height: 320px;
+        max-width: 300px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+      }
+      #popular-rank-5 a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Noto Sans JP', sans-serif;
+        position: relative;
+        top: 220px;
+        left: 20px;
+      }
+
+      #mid-news {
+        margin: 0 auto;
+        width: 90%;
+        min-height: 800px;
+      }
+      .news-title {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+      }
+
+      .line-3 {
+        height: 3px;
+        width: 1400px;
+        background-color: #d00000;
+        margin-left: 20px;
+      }
+
+      
+
+      
+
+
+ 
+
+
 
     
 
