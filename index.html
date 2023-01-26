@@ -340,36 +340,362 @@
             </div> 
             <div class="line-5"></div>
         </div>
-        <div class="tab-container-2">
-            <div class="tab-triger-2">
-                <ul>
-                    <li><label for="tab-1">PR Info</label></li>
-                    <li><label for="tab-2">Popular Keywords</label></li>
-                    <li><label for="tab-3">PR Info</label></li>
-                    <li><label for="tab-4">Popular Keywords</label></li>
-                </ul>
+        <div id="tabs1" class="tabs">
+            <div class="tabRow">
+              <ul>
+                <li class="tab">Museum</li>
+                <li class="tab">Art Museum</li>
+                <li class="tab">Zoo</li>
+                <li class="tab">Aquarium</li>
+                <!-- if you have more tabs than content containers then tab is just unclickable -->
+              </ul>
             </div>
-            <div class="tab-container-wrap-2">
-                <input type="radio" checked id="tab-1" name="1">
-                <div class="tab-content-box-2">
-                    
+            <div class="tabContainer">
+              <!-- Content without .tabContent class on top of list will be visible in all tabs -->
+              <div class="tabContent">
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/sen-oku.jpg" width="500" height="auto">
+                            <h5>Sen-oku Hokukokan Museum</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Kinki</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kyoto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <input type="radio" id="tab-2" name="1">
-                <div class="tab-content-box-2">
-                    
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/kawashime.jpg" width="500" height="auto">
+                            <h5>Kawashime Textile Museum</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Kinki</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kyoto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <input type="radio" id="tab-3" name="1">
-                <div class="tab-content-box-2">
-                    
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/kyocera.jpg" width="500" height="auto">
+                            <h5>Kyocera Gallery</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Kinki</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kyoto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <input type="radio" id="tab-4" name="1">
-                <div class="tab-content-box-2">
-                    
+              </div>
+              <div class="tabContent">
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/oita-museum.jpg" width="500" height="auto">
+                            <h5>Oita Prefectural Art Museum</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Kyushu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Oita</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/yufuin.jpg" width="500" height="auto">
+                            <h5>Yufuin Stained Glass Museum</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Kyushu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Oita</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/sakamoto.jpg" width="500" height="auto">
+                            <h5>Sakamoto Zenzo Museum of Art</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Kumamoto</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kyushu</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="tabContent">
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/okinawa-zoo.jpg" width="500" height="auto">
+                            <h5>Okinawa Zoo & Museum</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Okinawa</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/NeoparkOkinawa.jpg" width="500" height="auto">
+                            <h5>Neo Park Okinawa</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Okinawa</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/itozu.jpg" width="500" height="auto">
+                            <h5>Itozu no Mori Zoological Park</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Fukuoka</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kyushu</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="tabContent">
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/kaiyohaku.jpg" width="500" height="auto">
+                            <h5>National Okinawa Memorial Park (Kaiyohaku Park): Okinawa Churaumi Aquarium</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Okinawa</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/kitakyushu.jpg" width="500" height="auto">
+                            <h5>Kitakyushu Water Environment Museum</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Fukuoka</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kyushu</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="jv-list-item">
+                    <div class="jv-list-img">
+                        <a href="#">
+                            <img src="./img-jv/oita-marine.jpg" width="500" height="auto">
+                            <h5>Oita Marine Palace Aquarium "Umitamago"</h5>
+                        </a>
+                    </div>
+                    <div class="jv-list-body">
+                        <div class="jv-list-txt">
+                            <ul class="jv-list-tags">
+                                <li>
+                                    <a href="#">Kyushu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Oita</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <!-- if you have more content conatainers, then these will be visible in all tabs -->
+            </div>
+        </div>
+        <div class="view-btn2">
+            <a href="#" class="btn-more2">
+                View More
+            </a>
+        </div>
+    </div>
+    <div id="mid-japanese">
+        <div class="learn-title">
+            <div class="title">
+                <h2>Learn Japanese</h2>
+            </div> 
+            <div class="line-6"></div>
+        </div>
+        <div class="uni-content">
+            <div class="uni-list-item">
+                <div class="uni-list-img">
+                    <a href="#">
+                        <img src="./img-jv/thum-binus.jpeg" width="500" height="auto">
+                        <h5>Universitas Bina Nusantara (BINUS University)</h5>
+                    </a>
+                </div>
+                <div class="uni-list-body">
+                    <div class="uni-list-txt">
+                        <p>2022.12.19</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uni-list-item">
+                <div class="uni-list-img">
+                    <a href="#">
+                        <img src="./img-jv/thum-unsada.png" width="500" height="auto">
+                        <h5>Universitas Dharma Persada</h5>
+                    </a>
+                </div>
+                <div class="uni-list-body">
+                    <div class="uni-list-txt">
+                        <p>2022.12.19</p>
+                    </div>
+                </div>
+            </div>
+            <div class="uni-list-item">
+                <div class="uni-list-img">
+                    <a href="#">
+                        <img src="./img-jv/al-azhar.jpg" width="500" height="auto">
+                        <h5>Universitas Al-Azhar Indonesia</h5>
+                    </a>
+                </div>
+                <div class="uni-list-body">
+                    <div class="uni-list-txt">
+                        <p>2022.12.15</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-btn2">
+            <a href="#" class="btn-more2">
+                View More
+            </a>
+        </div>
+    </div>
+    <div id="mid-comcon">
+        <div class="comcon-title">
+            <div class="line-7"></div>
+            <div class="title">
+                <h2>Community Corner</h2>
+            </div> 
+        </div>
+        <div class="comcon-content">
+            <div class="content-box-1">
+                <h4>Sistem Buang Sampah di Jepang: Tantangan Tinggal di Jepang!</h4>
+                <svg width="18px" height="17px" viewBox="-1 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <polygon class="arrow" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                        <polygon class="arrow-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                        <path d="M-4.58892184e-16,0.56157424 L-4.58892184e-16,16.1929159 L9.708,8.33860465 L-1.64313008e-15,0.56157424 L-4.58892184e-16,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="content-box-2">
+                <h4>Tren ‘Yaeba’ Masih Digemari di Jepang Hingga Sekarang!</h4>
+                <svg width="18px" height="17px" viewBox="-1 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <polygon class="arrow" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                        <polygon class="arrow-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                        <path d="M-4.58892184e-16,0.56157424 L-4.58892184e-16,16.1929159 L9.708,8.33860465 L-1.64313008e-15,0.56157424 L-4.58892184e-16,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="content-box-3">
+                <h4>Arak-Arak Kuil Portabel di Jepang</h4>
+                <svg width="18px" height="17px" viewBox="-1 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <polygon class="arrow" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                        <polygon class="arrow-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                        <path d="M-4.58892184e-16,0.56157424 L-4.58892184e-16,16.1929159 L9.708,8.33860465 L-1.64313008e-15,0.56157424 L-4.58892184e-16,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+                    </g>
+                </svg>
             </div>
         </div>
     </div>
 
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->

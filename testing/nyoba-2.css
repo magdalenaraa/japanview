@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    background: #1d1e22;
+    margin: 24px;
+  }
+  .tabs {
+    margin: 24px 0;
+    max-width: 800px;
+  }
+  .tabRow a, .tabRow a:hover {
+    text-decoration: none;
+  }
+  .tabRow ul {
+    margin: 0 0 -1px;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  .tabContainer {
+    background: aliceblue;
+    border: 1px solid silver;
+    min-height: 200px;
+    margin: -1px 0 0;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+  }
+  .tabContent {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .jv-list-item {
+    flex: 0 0 calc(33.33% - 16px);
+    border: 0px;
+    border-bottom: 1px solid #999999;
+    position: relative;
+    margin: 0 0 35px;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .jv-list-img {
+        overflow: hidden;
+    }
+    .jv-list-img a img {
+        border-radius: 6px;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .jv-list-img a h5 {
+        font-size: 16px;
+        margin: 0;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .jv-list-body {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    .jv-list-txt {
+        padding: 0 0 0 0px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-end;
+    }
+    .jv-list-tags {
+        display: flex;
+        font-size: 14px;
+        font-weight: 500;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    .ul {
+        list-style-type: disc;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+    .jv-list-tags li {
+        padding: 4px;
+    }
+    ul li {
+        list-style: none;
+    }
+    .jv-list-tags a {
+        text-decoration: none;
+        color: #888;
+    }.jv-list-tags li:first-child::before {
+        content: "";
+        background: url(./img-jv/icons8-location-24.png) no-repeat 0 0;
+        background-size: cover;
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+  .tab {
+    color: rgb(255, 255, 255);
+    border: 1px solid silver;
+    background: #d00000;
+    border-left: none;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    float: left;
+    padding: 12px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .tab:hover {
+    color: #ffffff;
+  }
+  .tab.active {
+    color: #d00000;
+    font-weight: 700;
+    background: #fff;
+    border-bottom: none;
+    padding-bottom: 13px;
+  }
+  .tab:nth-child(1) {
+    border-left: 1px solid silver;
+    border-top-left-radius: 15px;
+  }
+  .tab:nth-last-child(1) {
+    border-top-right-radius: 15px;
+  }
