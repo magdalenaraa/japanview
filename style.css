@@ -30,6 +30,7 @@
         transition: .5s;
         display: flex;
         justify-content: space-between;
+        z-index: 10;
     }
     .nav:active {
         background: #1567b4
@@ -557,33 +558,42 @@
         justify-content: space-between; 
       }
 
-      #popular-rank-1 {
-        background-image: url(./img-jv/newyear-thumb.png);
+      .popular-rank-1 {
+        background-image: url(./img-jv/populer-thn-baru.jpg);
         width: 100%;
-        min-height: 320px;
         max-width: 300px;
+        height: 320px;
         background-position: center;
         background-size: cover;
         box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
 -webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
 -moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
       }
-      #popular-rank-1 a {
+      .popular-rank-1-container {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21, 103, 180, 0.678) 20%, rgba(0,212,255,0) 100%);
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+      }
+    .popular-rank-1 a {
         text-decoration: none;
         color: #fff;
         font-size: 24px;
+        padding: 16px;
         font-weight: 700;
         font-family: 'Noto Sans JP', sans-serif;
-        position: relative;
-        top: 220px;
-        left: 20px;
+        display: inline-block;
+	    position: relative;
       }
     
 
-      #popular-rank-2 {
-        background-image: url(./img-jv/univ-thumb.png);
+      .popular-rank-2 {
+        background-image: url(./img-jv/univ-takushoku.jpg);
         width: 100%;
-        min-height: 320px;
+        height: 320px;
         max-width: 300px;
         background-position: center;
         background-size: cover;
@@ -591,22 +601,30 @@
 -webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
 -moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
       }
-      #popular-rank-2 a {
+      .popular-rank-2-container {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21, 103, 180, 0.678) 20%, rgba(0,212,255,0) 100%);
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+      }
+      .popular-rank-2 a {
         text-decoration: none;
         color: #fff;
-        font-size: 22px;
+        font-size: 18px;
+        padding: 16px;
         font-weight: 700;
         font-family: 'Noto Sans JP', sans-serif;
-        position: relative;
-        top: 180px;
-        left: 20px;
-        right: 20px;
+        display: inline-block;
+	    position: relative;
       }
 
-      #popular-rank-3 {
-        background-image: url(./img-jv/pokemon-thumb.png);
+      .popular-rank-3 {
+        background-image: url(./img-jv/pokemon.jpg);
         width: 100%;
-        min-height: 320px;
+        height: 320px;
         max-width: 300px;
         background-position: center;
         background-size: cover;
@@ -614,19 +632,28 @@
 -webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
 -moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
       }
-      #popular-rank-3 a {
+      .popular-rank-3-container {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21, 103, 180, 0.678) 20%, rgba(0,212,255,0) 100%);
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+      }
+      .popular-rank-3 a {
         text-decoration: none;
         color: #fff;
         font-size: 24px;
+        padding: 16px;
         font-weight: 700;
         font-family: 'Noto Sans JP', sans-serif;
-        position: relative;
-        top: 220px;
-        left: 20px;
+        display: inline-block;
+	    position: relative;
       }
 
-      #popular-rank-4 {
-        background-image: url(./img-jv/sen-thumb.png);
+      .popular-rank-4 {
+        background-image: url(./img-jv/sen-article.jpg);
         width: 100%;
         min-height: 320px;
         max-width: 300px;
@@ -636,19 +663,28 @@
 -webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
 -moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
       }
-      #popular-rank-4 a {
+      .popular-rank-4-container {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21, 103, 180, 0.678) 20%, rgba(0,212,255,0) 100%);
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+      }
+      .popular-rank-4 a {
         text-decoration: none;
         color: #fff;
         font-size: 24px;
+        padding: 16px;
         font-weight: 700;
         font-family: 'Noto Sans JP', sans-serif;
-        position: relative;
-        top: 220px;
-        left: 20px;
+        display: inline-block;
+	    position: relative;
       }
 
-      #popular-rank-5 {
-        background-image: url(./img-jv/seiyuu-thumb.png);
+      .popular-rank-5 {
+        background-image: url(./img-jv/thumb.jpg);
         width: 100%;
         min-height: 320px;
         max-width: 300px;
@@ -658,15 +694,24 @@
 -webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
 -moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
       }
-      #popular-rank-5 a {
+      .popular-rank-5-container {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21, 103, 180, 0.678) 20%, rgba(0,212,255,0) 100%);
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+      }
+      .popular-rank-5 a {
         text-decoration: none;
         color: #fff;
         font-size: 24px;
+        padding: 16px;
         font-weight: 700;
         font-family: 'Noto Sans JP', sans-serif;
-        position: relative;
-        top: 220px;
-        left: 20px;
+        display: inline-block;
+	    position: relative;
       }
 
       #mid-news {
@@ -1262,7 +1307,7 @@
         #mid-comcon {
             margin: 30px auto 0;
             width: 90%;
-            min-height: 720px;
+            min-height: 550px;
         }
         .comcon-title {
             display: flex;
@@ -1280,8 +1325,94 @@
             display: flex;
             justify-content: space-between;
         }
-        .content-box-1 {
-            
+        .content-box-1{
+            background-color: #888;
+            background-image: url(./img-jv/trash.png), linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21,103,180,1) 70%, rgba(0,212,255,0) 100%);;
+            width: 100%;
+            max-width: 410px;
+            background-position: center;
+            background-size: cover;
+        }
+        .content-box-1-container {
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21, 103, 180, 0.678) 20%, rgba(0,212,255,0) 100%);
+            background-size: cover;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 700;
+        }
+  
+        .arrow {
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+            padding: 24px;
+            transition: all 0.5s;
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+          }
+          
+          .arrow:after {
+            content: '»';
+            position: absolute;
+            opacity: 0;  
+            top: 14px;
+            right: -12px;
+            transition: 0.5s;
+          }
+          
+          .arrow:hover{
+            padding-right: 20px;
+            padding-left:8px;
+          }
+          
+          .arrow:hover:after {
+            opacity: 1;
+            right: 10px;
+          }
+
+        .content-box-2 {
+            background-color: #888;
+            background-image: url(./img-jv/yaeba.png), linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21,103,180,1) 70%, rgba(0,212,255,0) 100%);;
+            width: 100%;
+            max-width: 410px;
+            background-position: center;
+            background-size: cover;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 700;
+        }
+        .content-box-2-container {
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21, 103, 180, 0.678) 20%, rgba(0,212,255,0) 100%);
+            background-size: cover;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+        }
+
+        .content-box-3 {
+            background-color: #888;
+            background-image: url(./img-jv/kuil.png), linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21,103,180,1) 70%, rgba(0,212,255,0) 100%);;
+            width: 100%;
+            max-width: 410px;
+            background-position: center;
+            background-size: cover;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-weight: 700;
+        }
+        .content-box-3-container {
+            width: 100%;
+            height: 395px;
+            background-image: linear-gradient(0deg, rgba(6,24,87,1) 0%, rgba(21, 103, 180, 0.678) 20%, rgba(0,212,255,0) 100%);
+            background-size: cover;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
         }
 
     
