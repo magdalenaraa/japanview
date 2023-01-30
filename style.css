@@ -8,7 +8,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        outline: 1px solid red;
         font-family: 'Noto Sans JP', sans-serif;
     }
     #japan-view {
@@ -22,18 +21,18 @@
 
     nav {
         position: fixed;
-        top: 10px;
-        width: 90%;
+        width: 100%;
         height: 100px;
-        padding: 10px 0px 10px 100px;
+        padding: 10px 100px 10px 100px;
         box-sizing: border-box ;
-        transition: .5s;
+        transition: 0.6s;
         display: flex;
         justify-content: space-between;
         z-index: 10;
-    }
-    .nav:active {
-        background: #1567b4
+        background: #1567b4da;
+         box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.42);
     }
 
     nav .logo img {
@@ -53,12 +52,12 @@
     nav ul {
         float: right;
         margin: 0;
-        padding: 0;
         display: flex;
     }
 
     nav ul li {
         list-style: none;
+        position: relative;
     }
     nav ul li a {
         line-height: 80px;
@@ -67,6 +66,10 @@
         padding: 35px 30px;
         text-decoration: none;
         transition: .5s;
+    }
+    nav ul li a:hover {
+        color: rgba(255, 255, 255, 0.753);
+        cursor: pointer;
     }
 
     .hamburger-menu-items {
@@ -334,7 +337,7 @@
       .vid-list-img a {
         display: block;
         height: 200px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
       }
@@ -823,6 +826,7 @@
         margin-bottom: 0.75rem;
         color: inherit;
         text-decoration: inherit;
+        border-bottom: solid 1px #1567b4;
     }
     .fn-thumb-1 {
         object-fit: cover;
@@ -853,6 +857,7 @@
         margin-bottom: 0.75rem;
         color: inherit;
         text-decoration: inherit;
+        border-bottom: solid 1px #1567b4;
     }
     .fn-thumb-2 {
         object-fit: cover;
@@ -1414,6 +1419,99 @@
             justify-content: space-around;
             align-items: flex-end;
         }
+
+        .jv-footer {
+            margin: 40px auto 0;
+            background: url(./img-jv/bg-footer.png);  
+        }
+        .jv-footer a {
+            text-decoration: none;
+            color: #333;
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: 14px;
+        }
+        .jv-footer-wrapper {
+            flex-wrap: wrap;
+            max-width: 90%;
+            margin: auto;
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        .jv-footer-logo {
+            flex: none;
+        }
+        .footer-logo-1 {
+            display: block;
+        }
+        .footer-logo-1 {
+            display: block;
+        }
+        .jv-footer-menu {
+            flex: 0 0 auto;
+            width: 86%;
+        }
+        .jv-footer-menu > ul {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            width: 100%;
+            list-style-type: disc;
+            list-style-type: disc;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 0px;
+        }
+        .jv-footer-menu .first-link > a {
+            border-bottom: solid 1px #c2ccd9;
+            display: block;
+            padding: 0 0 10px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .jv-footer-menu li {
+            padding: 0 0 0 24px;
+        }
+        .jv-footer-menu li ul {
+            width: 11em;
+            padding: 10px 0 0;
+            display: block;
+        }
+        .jv-footer-menu li ul li {
+            padding: 8px 0 0;
+        }
+        .jv-footer-menu li:nth-child(4) ul {
+            width: 12em;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+        }
+        .jv-footer-menu li:nth-child(4) ul li {
+           width: 7em;
+           flex: none; 
+        }
+
+        .jv-footer-copy {
+            background: #9dbcdfb0;
+            max-width: 100%;
+            text-align: left;
+        }
+        .jv-footer-copy span {
+            display: block;
+            max-width: 90%;
+            margin: 0 auto;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12px;
+            padding: 10px;
+        }
+           
+        
+        
+
+        
 
     
 
